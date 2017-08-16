@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #7EFF7E;
+}
+#canvas{
+	width: 800px;
+	height: 500px;
+	display: block;
+	border: 5px solid #000;
+	margin: 20px auto;
+	border-radius: 20px;
+	overflow: hidden;
+	
+}
+#canvas:hover{
+	box-shadow: 0 0 5px #000;
+}
+#controllers{
+	max-width: 800px;
+	margin: 0 auto;
+	background: #E8DD39;
+	padding: 15px;
+	box-shadow: 0 0 10px #E8DD39;
+}
+#clear{
+	display: inline-block;
+	padding: 5px 15px;
+	border: 2px solid #000;
+	background: #43A5FD;
+	color: #fff;
+	border-radius: 20px;
+	margin-right: 30px;
+}
+#clear:hover{
+	background: #0360FF; 
+	text-shadow: 0 0 4px #fff;
+}
